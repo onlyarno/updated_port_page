@@ -1,0 +1,137 @@
+/* 
+@Author: Mike Kennedy
+@DateCreated: 03/04/2018
+@Description: Rutgers Bootcamp Assignment 1 - Basic Portfolio 
+*/
+
+body {
+    /* The background pattern used was found on Subtle Patterns. */
+    background-image: url("../images/dust_scratches.png");
+    /* Regular font color (used for paragraphs and all text besides the headings): #777777 */
+    color: #777777;
+}
+
+header {
+    /* Main header background color: #ffffff */
+    background-color: #ffffff;
+    /* Main header border color: #cccccc */
+    border-top: 2px solid #cccccc;
+    border-bottom: 2px solid #cccccc;
+}
+
+.name {
+    /* Teal color (used for headings and backgrounds): #4aaaa5 */
+    background-color: #4aaaa5;
+    color: white;
+}
+
+.main {
+    /* Main content background color: #ffffff */
+    background-color: #ffffff;
+    /* Main content border color:  */
+    border: 2px solid #dddddd;
+}
+    
+h2 {
+    color: #4aaaa5;
+}
+
+aside {
+    background-color: #ffffff;
+    /* Main content border color:  */
+    border: 2px solid #dddddd
+}
+
+#picture {
+    border: 4px solid #4aaaa5;
+}
+
+.portfolioProjects:hover{
+    border: 4px solid #4aaaa5;
+}
+
+footer {
+    /* Footer background color: #666666 */
+    background-color: #666666;
+    color: lightgrey;
+    /* Teal color (used for headings and backgrounds): #4aaaa5 */
+    border-top: 5px solid #4aaaa5;
+}
+
+ul {
+    /* Teal color (used for headings and backgrounds): #4aaaa5 */
+    background-color: #4aaaa5;
+}
+
+li a {
+    color: white;
+}
+
+li a:hover {
+    background-color: #007F79;
+}
+
+.inputtext {
+    border: 2px solid #dddddd;
+}
+
+.inputbutton{
+    color: #777777;
+    /* For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;. */
+    border: 2px solid #dddddd;
+}
+
+.inputbutton:hover{
+    color: #777777;
+    background-color: #4aaaa5;
+    color: white;
+}
+
+label {
+	background: #007F79;
+}
+
+label:after {
+	background: #fff;
+}
+
+input:checked + label {
+    background: #777777;
+}
+
+@media screen and (max-width: 640px) {
+    .name {
+        width: 100%;
+    }
+    header {
+        height: 150px;
+        background-color: white;
+    }
+
+    nav {
+        
+        width:100%;
+        background-color: white;
+        
+
+    }
+
+    ul {
+        /* Teal color (used for headings and backgrounds): #4aaaa5 */
+        background-color: white;
+        align-items: center;
+        width:100%;
+        color: #777777;
+    }
+    
+    li a {
+        background-color: white;
+        color: #777777;
+        text-align: center;
+    }
+    
+    li a:hover {
+        background-color: #007F79;
+        color: white;
+    }
+}

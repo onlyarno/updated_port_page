@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>About Me</title>
+    <!-- CSS Reset -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/reset.css" />
+    <!-- Main CSS  -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css" />
+    <!-- Initially setting the light CSS -->
+    <link rel="stylesheet" id="style" type="text/css" media="screen" href="assets/light-style.css" />
+    <!-- Adding tab icon -->
+    <link rel="icon" href="images/favicon.png">
+    <!-- Adding link to main.js for toggle function -->
+    <script src="assets/main.js"></script>
+</head>
+
+<body>
+    <!-- Create main header -->
+    <header>
+        <div class="header960">
+            <a href="index.html">
+                <div class="name">
+                    <strong>ARNO Kole</strong>
+            </a>
+            <!-- Create nav element for links to different pages-->
+            <nav>
+                <ul>
+                    <li><a class="active" href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><input type="checkbox" id="switch" /><label for="switch" onclick="toggle()">Toggle</label></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Create main section for content -->
+    <section>
+        <div class="main">
+            <h2>Portfolio</h2>
+            <hr>
+            <a href=><img id="portfolioProjects1" class="portfolioProjects" src="images/portfolio-hangman.png"
+                    alt="hangman"></a>
+            <a href=""><img id="portfolioProjects2" class="portfolioProjects" src="images/portfolio-rpggame.png"
+                    alt="rpggame"></a>
+            <a href=""><img id="portfolioProjects3" class="portfolioProjects" src="images/portfolio-triviagame.png"
+                    alt="triviagame"></a>
+            <a href=""><img id="portfolioProjects4" class="portfolioProjects"
+                    src="images/portfolio-rutgersinfowidget.png" alt="rutgersinfowidget"></a>
+            <a href=""><img id="portfolioProjects5" class="portfolioProjects" src="images/portfolio-rps.png"
+                    alt="rps"></a>
+        </div>
+        <!-- Create side bar -->
+        <aside>
+            <h2>Connect with Me</h2>
+            <hr>
+            <!-- Add image links to my various profiles -->
+            <a href=><img class="logos" src="images/linkedin.png" alt="linkedin"></a>
+            <a href=><img class="logos" src="images/stackoverflow.png" alt="stackoverflow"></a>
+            <a href=><img class="logos" src="images/github.png" alt="github"></a>
+            <a href="mailto:onlyarno@gmail.com"><img class="logos" src="images/gmail.png" alt="gmail"></a>
+        </aside>
+    </section>
+
+    <!-- Create footer -->
+    <footer>
+        <p>&#169; Copyright 2020 ARNO Kole</p>
+    </footer>
+
+</body>
+
+</html>

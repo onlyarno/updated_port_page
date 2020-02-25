@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>ARNO Home</title>
+    <!-- CSS Reset -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/reset.css" />
+    <!-- Main CSS  -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css" />
+    <!-- Initially setting the light CSS -->
+    <link rel="stylesheet" id="style" type="text/css" media="screen" href="assets/light-style.css" />
+    <!-- Adding tab icon -->
+    <link rel="icon" href="images/favicon.png">
+    <!-- Adding link to main.js for toggle function -->
+    <script src="assets/main.js"></script>
+</head>
+
+<body>
+    <!-- Create main header -->
+    <header>
+        <div class="header960">
+            <a href="index.html">
+                <div class="name">
+                    <strong>ARNO Kole</strong>
+            </a>
+        </div>
+        <!-- Create nav element for links to different pages-->
+        <nav>
+            <ul>
+                <li><a class="active" href="index.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><input type="checkbox" id="switch" /><label for="switch" onclick="toggle()">Toggle</label></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+    <!-- Create main section for content -->
+    <section>
+        <div class="main">
+            <h2>About Me</h2>
+            <hr>
+            <!-- Add profile picture -->
+            <img id="picture" src="images/ARNO.jpg.jpg" alt="profilepicture">
+            <!-- Add bio -->
+            <p>Hello World. I am originally from Buffalo, New York, but grew up and raised in Johnson County and Kansas
+                City. As you
+                may imagine, I do prefer the colder seasons over summer. I have a twin sister, who is the goody-goody of
+                the nuclear
+                family. Our family comes from India, where we do visit every few years or so.
+
+                Anyway, I am a graduate of UMKC with a biology and chemistry major, although i like biology a tad bit
+                more.
+                Presently, I hope to become a full-stack web-developer, and perhaps combine the two knowledges together.
+                <p>
+                    In off time, I like to relax, play the piano, socialize with closest friends, watch movies, play
+                    video games,
+                    and other things.
+
+                    I also love my dog more than anything else.
+                </p>
+            </p>
+        </div>
+        <!-- Create side bar -->
+        <aside>
+            <h2>Connect with Me</h2>
+            <hr>
+            <!-- Add image links to my various profiles -->
+            <a href=><img class="logos" src="images/linkedin.png" alt="linkedin"></a>
+            <a href=><img class="logos" src="images/stackoverflow.png" alt="stackoverflow"></a>
+            <a href=><img class="logos" src="images/github.png" alt="github"></a>
+            <a href="mailto:onlyarno@gmail.com"><img class="logos" src="images/gmail.png" alt="gmail"></a>
+        </aside>
+    </section>
+
+    <!-- Create footer -->
+    <footer>
+        <p>&#169; Copyright 2020 ARNO Kole</p>
+    </footer>
+
+</body>
+
+</html>
